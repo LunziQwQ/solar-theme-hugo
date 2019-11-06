@@ -1,45 +1,27 @@
 # Solar Theme for Hugo
 
 A minimalistic theme for [Hugo](https://gohugo.io/) blogs, fork of
-[Solar Theme for Ghost](https://github.com/mattvh/solar-theme-ghost). There is a
-demo available on
-[Hugos theme list](https://themes.gohugo.io/theme/solar-theme-hugo/). See the
-[example config.toml](exampleSite/config.toml) for a starting point.
+[Solar Theme for Hugo](https://github.com/bake/solar-theme-hugo).
 
 ## Color schemes
 
 Solar offers three color schemes: (Solarized) `light`, (Solarized) `dark`
 (default) and `gray`. Additionally there is a `preference` setting which
 switches between `light` and `dark` according to the users preference.
+[example config.toml](exampleSite/config.toml) for a starting point.
 
-## Screenshot
+## highlight
+on the base. add code highlight with highlight.js and choose a style which most cohere.
 
-![Screenshot](/images/tn.png)
-
-## Additional HTML
-
-Custom HTML can be injected just before `</head>` and `</body>` by creating a
-`head.html` or `foot.html` inside the sites `layouts/partials/` folder. The
-default (empty) logo can be overwritten by creating a `logo.svg` in
-`static/img/`.
-
-## Syntax Highlighting
-
-This theme does not bring a syntax highlighter. If you want to use
-[Hugos built in one](https://gohugo.io/content-management/syntax-highlighting/),
-remember to update the color scheme by
-[setting pygmentsStyle](/exampleSite/config.toml#L4). The pygments style
-`solarized-dark`, for example, matches the themes `dark` color scheme, while
-`solarized-light` matches `light` and `solarized-dark256` works well with
-`gray`. Otherwise, the necessary JavaScript can be placed inside `static/` and
-get included by providing a `footer.html` as described above.
+## Todo update 
+haven't decided yet :)
 
 ## Installation
 
 Same as with any other theme:
 
 ```bash
-$ git clone https://github.com/bake/solar-theme-hugo.git themes/solar-theme-hugo
+$ git clone https://github.com/LunziQwQ/solar-theme-hugo themes/solar-theme-hugo
 $ hugo server --theme solar-theme-hugo
 ...
 ```

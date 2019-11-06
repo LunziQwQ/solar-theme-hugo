@@ -1,4 +1,5 @@
 .DS_Store
+.idea
 exampleSite/content/
 exampleSite/resources/
 exampleSite/static/

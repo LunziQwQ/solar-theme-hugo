@@ -2,16 +2,16 @@ name = "solar-theme-hugo"
 license = "GPLv2"
 licenselink = "https://github.com/bake/solar-theme-hugo/blob/master/LICENSE.md"
 description = "A light or dark minimalistic theme"
-homepage = "https://github.com/bake/solar-theme-hugo"
+homepage = "https://github.com/LunziQwQ/solar-theme-hugo"
 tags = ["blog", "light", "dark", "responsive", "solarized"]
 features = []
-min_version = "0.25.1"
+min_version = "0.0.1"
 
 [author]
-	name = "bake"
-	homepage = "https://192k.pw/"
+	name = "Kylin Jiang"
+	homepage = "https://www.lunzi.space/"
 
 [original]
-	author = "mattvh"
-	name = "solar-theme-ghost"
-	repo = "https://github.com/mattvh/solar-theme-ghost"
+	author = "bake"
+	name = "solar-theme-hugo"
+	repo = "https://github.com/bake/solar-theme-hugo"
